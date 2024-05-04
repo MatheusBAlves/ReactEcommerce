@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Star Wars Action Figure",
+      "price": 69.99,
+      "picture": "",
+      "categoryId": 1,
+      "available": true,
+      "canDelete": false
+    },
+    {
+      "id": "2",
+      "name": "Led 5mm vermelho",
+      "price": 1,
+      "picture": "",
+      "category": "eletrônica",
+      "available": true,
+      "canDelete": false
+    },
+    {
+      "id": "3",
+      "name": "Transistor bc337 NPN",
+      "price": 0.5,
+      "picture": "",
+      "category": "eletrônica",
+      "available": true,
+      "canDelete": false
+    },
+    {
+      "id": "a919",
+      "name": "Transistor bc548",
+      "price": 0.8,
+      "category": "",
+      "picture": "",
+      "available": false,
+      "canDelete": true
+    },
+    {
+      "id": "d1ce",
+      "name": "Led 5mm Amarelo",
+      "price": 0.7,
+      "category": "",
+      "picture": "",
+      "available": false,
+      "canDelete": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "geek"
+    }
+  ]
+}
