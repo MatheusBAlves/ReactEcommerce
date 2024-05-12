@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #F6FCFF;
+}
+
+main {
+  min-height: 90vh;
+  padding: 2rem;
+}
+
+main,
+nav {
+  width: 90%;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+
+main h1 {
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+main ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 4rem;
+}
+
+main li {
+  font-size: 1.8rem;
+}
+
+main li a {
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.44);
+}
+
+
+
+
+
+@media (min-width: 2400px) {
+
+  main,
+  nav {
+    max-width: 2000px;
+  }
+}

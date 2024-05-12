@@ -1,16 +1,17 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { productServices } from "../services/productServices";
+import ListProducts from "../hooks/Product";
 
 
-export default function AddPage() {
+export default function AddProduct() {
+
+  const { httpConfig, loading } = ListProducts();
 
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
   const [category, setCategory] = useState("");
   const [picture, setPicture] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     const product = {
@@ -22,14 +23,13 @@ export default function AddPage() {
       canDelete: true
     };
 
-    productServices.AddProduct(product);
+    httpConfig(product, "POST")
+    // productServices.AddProduct(product);
 
-    // window.location.href = "/";
+    window.location.href = "/";
   }
 
   return (<>
-    <div>TESTE</div>
-    <Link to="/">Home</Link>
     <form onSubmit={handleSubmit}>
       <label>
         Nome
@@ -48,7 +48,7 @@ export default function AddPage() {
         <input type="text" name="picture" placeholder="Foto" value={picture} onChange={(e) => setPicture(e.target.value)} />
       </label>
 
-      <input type="submit" value="Criar" />
+      {!loading && <input type="submit" value="Criar" />}
     </form>
 
   </>

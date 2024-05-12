@@ -1,0 +1,15 @@
+.footer {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  font-size: 1.6rem;
+  /* background-color: #c7c7c7; */
+  box-shadow: rgba(0, 0, 0, .15) 0px -2px 5px 0px;
+}
+
+.footer a {
+  font-weight: 700;
+}

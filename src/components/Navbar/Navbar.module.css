@@ -1,0 +1,33 @@
+.active {
+  color: #ccc;
+}
+
+.header {
+  box-shadow: rgba(0, 0, 0, .15) 0px 1px 10px 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.links,
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.links {
+  padding: 2rem;
+}
+
+.perfil a {
+  padding: 1.2rem;
+}
+
+.perfil svg {
+  font-size: 2rem;
+}

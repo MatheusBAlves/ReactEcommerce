@@ -1,0 +1,27 @@
+.form {
+  position: relative;
+}
+
+.inputs {
+  padding: .4rem;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: none;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+input.inputs {
+  border-bottom: 1px solid #c6c6c6;
+  padding-right: 2rem;
+}
+
+button.inputs {
+  position: absolute;
+  border: transparent;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
