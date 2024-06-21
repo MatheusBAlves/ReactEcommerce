@@ -1,0 +1,17 @@
+.item {
+  grid-column: span 1;
+  display: grid;
+  gap: .5rem;
+}
+
+.picture {
+  width: 100%;
+}
+
+.link {
+  transition: 4s;
+}
+
+.link:hover {
+  border-bottom: 1px solid red;
+}

@@ -1,6 +1,7 @@
-import { useSearchParams, Link } from "react-router-dom"
-import SearchProduct from "../hooks/SearchProduct";
-
+import { useSearchParams } from "react-router-dom"
+import SearchProduct from "../../hooks/SearchProduct";
+import ProductItem from "../../components/ProductItem/ProductItem";
+import styles from './Search.module.css'
 
 const Search = () => {
   const [searchParams] = useSearchParams();
@@ -11,14 +12,8 @@ const Search = () => {
       <h1>Resultado:</h1>
       {loading && <p>Carregando dados...</p>}
       {error && <p>{error}</p>}
-      {!error && <ul>
-        {products && products.map((product) => (
-          <li key={product.id}>
-            <p>{product.name} - R$: {product.price.toFixed(2)}</p>
-            <Link to={`/products/${product.id}`}>Detalhes</Link>
+      {!error && <ul className={styles.list}>
 
-          </li>
-        ))}
       </ul>
       }
 

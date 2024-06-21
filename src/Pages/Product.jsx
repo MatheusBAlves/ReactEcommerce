@@ -13,6 +13,7 @@ const Product = () => {
       {error && <p>Ocorreu um erro ao carregar o produto...</p>}
       {loading && <p>CARREGANDO DADOS...</p>}
       {product && <>
+        {product.picture && <img src={product.picture} />}
         <p>ID DO PRODUTO: {product.id}</p>
         <p>Nome do produto: {product.name}</p>
       </>}

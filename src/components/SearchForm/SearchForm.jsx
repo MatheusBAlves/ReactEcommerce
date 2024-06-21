@@ -17,9 +17,9 @@ const SearchForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form}>
+    <form onSubmit={handleSubmit} className={styles.form} id="searchForm">
       <input type="text" onChange={(e) => setQuery(e.target.value)} value={query} className={styles.inputs} />
-      <button type="submit" className={styles.inputs}><IoMdSearch /></button>
+      <button type="submit" className={styles.inputs} form="searchForm"><IoMdSearch /></button>
     </form>
   )
 }

@@ -2,9 +2,9 @@
   "products": [
     {
       "id": "1",
-      "name": "Star Wars Action Figure",
+      "name": "Luke Skywalker - Star Wars Action Figure",
       "price": 69.99,
-      "picture": "",
+      "picture": "https://acdn.mitiendanube.com/stores/002/321/455/products/sedab95fd53734b8ea3875c81973f9b2cx1-07e5f720e2c1d38e9816650013685628-1024-1024.jpg",
       "categoryId": 1,
       "available": true,
       "canDelete": false
@@ -13,7 +13,7 @@
       "id": "2",
       "name": "Led 5mm vermelho",
       "price": 1,
-      "picture": "",
+      "picture": "https://cdn.awsli.com.br/600x700/468/468162/produto/1941435412328b077d.jpg",
       "categoryId": 2,
       "available": true,
       "canDelete": false
@@ -22,7 +22,7 @@
       "id": "3",
       "name": "Transistor bc337 NPN",
       "price": 0.5,
-      "picture": "",
+      "picture": "https://cdn.awsli.com.br/300x300/969/969921/produto/44736885/821d975a72.jpg",
       "categoryId": 2,
       "available": true,
       "canDelete": false
@@ -32,7 +32,7 @@
       "name": "Transistor bc548",
       "price": 0.8,
       "categoryId": 2,
-      "picture": "",
+      "picture": "https://images.tcdn.com.br/img/img_prod/751846/transistor_npn_bc548_2143_1_20240418035812.jpg",
       "available": false,
       "canDelete": true
     },
@@ -41,9 +41,18 @@
       "name": "Led 5mm Amarelo",
       "price": 0.7,
       "categoryId": 2,
-      "picture": "",
+      "picture": "https://cdn.awsli.com.br/600x700/468/468162/produto/194143535ba7d96aa9.jpg",
       "available": false,
       "canDelete": true
+    },
+    {
+      "name": "Xbox One",
+      "price": 2300,
+      "category": "Console",
+      "picture": "https://matheusbalves.github.io/eCommerce/assets/console.png",
+      "available": false,
+      "canDelete": true,
+      "id": "ftxdjfT"
     }
   ],
   "categories": [

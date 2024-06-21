@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./Pages/Home/Home";
 import AddProduct from "./Pages/AddProduct";
 import Product from "./Pages/Product";
-import Search from "./Pages/Search";
+import Search from "./Pages/Search/Search";
 
 
 export const MainRoutes = () => {

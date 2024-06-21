@@ -18,7 +18,8 @@ main {
 }
 
 main,
-nav {
+nav,
+section {
   width: 90%;
   max-width: 130rem;
   margin: 0 auto;
@@ -47,13 +48,6 @@ main ul {
 main li {
   font-size: 1.8rem;
 }
-
-main li a {
-  border-bottom: 0.1px solid rgba(0, 0, 0, 0.44);
-}
-
-
-
 
 
 @media (min-width: 2400px) {
